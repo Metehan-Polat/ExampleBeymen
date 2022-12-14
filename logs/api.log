@@ -1,0 +1,7 @@
+14-12-2022 20:38:20.157 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+14-12-2022 20:38:20.161 [Gauge] [INFO] Initializing specs cache with 1 specs
+14-12-2022 20:38:20.161 [Gauge] [DEBUG] Adding specs from C:\Users\mmete\IdeaProjects\exampleBeymen\specs\example.spec
+14-12-2022 20:38:20.161 [Gauge] [INFO] Initializing steps cache with 1 steps
+14-12-2022 20:38:20.161 [Gauge] [INFO] Gauge daemon initialized and listening on port: 50095
+14-12-2022 20:38:20.162 [Gauge] [DEBUG] Watching directory: C:\Users\mmete\IdeaProjects\exampleBeymen\specs
+14-12-2022 20:38:20.162 [Gauge] [DEBUG] Found 1 files

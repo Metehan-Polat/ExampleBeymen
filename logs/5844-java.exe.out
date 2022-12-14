@@ -1,0 +1,69 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+{"logLevel":"debug","message":"gauge-java took 907milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 907"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 51510"}
+{"logLevel":"info","message":"Listening on port:51510"}
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'StepImp.StepImplementation.implementation10' and 'StepImp.StepImplementation.implementation10'"}
+{"logLevel":"debug","message":"Found Product is selected in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImp.StepImplementation.implementation11' and 'StepImp.StepImplementation.implementation11'"}
+{"logLevel":"debug","message":"Found Add to cart text is checked in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImp.StepImplementation.implementation2' and 'StepImp.StepImplementation.implementation2'"}
+{"logLevel":"debug","message":"Found Navigate to Beymen in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImp.StepImplementation.implementation12' and 'StepImp.StepImplementation.implementation12'"}
+{"logLevel":"debug","message":"Found Click on favorites in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImp.StepImplementation.implementation1' and 'StepImp.StepImplementation.implementation1'"}
+{"logLevel":"debug","message":"Found Navigate to Browser in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImp.StepImplementation.implementation13' and 'StepImp.StepImplementation.implementation13'"}
+{"logLevel":"debug","message":"Found It is checked that the user login screen appears. in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImp.StepImplementation.implementation8' and 'StepImp.StepImplementation.implementation8'"}
+{"logLevel":"debug","message":"Found Pants are selected in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImp.StepImplementation.implementation7' and 'StepImp.StepImplementation.implementation7'"}
+{"logLevel":"debug","message":"Found Click on the product type in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImp.StepImplementation.implementation9' and 'StepImp.StepImplementation.implementation9'"}
+{"logLevel":"debug","message":"Found Products are listed in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImp.StepImplementation.implementation4' and 'StepImp.StepImplementation.implementation4'"}
+{"logLevel":"debug","message":"Found Click the search button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImp.StepImplementation.implementation6' and 'StepImp.StepImplementation.implementation6'"}
+{"logLevel":"debug","message":"Found Click on the Filter button in current project scope."}
+{"logLevel":"debug","message":"Comparing 'StepImp.StepImplementation.implementation5' and 'StepImp.StepImplementation.implementation5'"}
+{"logLevel":"debug","message":"Found Type pantolon in the search button and enter in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tClick on favorites : public void implementation12()"}
+{"logLevel":"debug","message":"\tNavigate to Browser : public void implementation1()"}
+{"logLevel":"debug","message":"\tClick on the product type : public void implementation7()"}
+{"logLevel":"debug","message":"\tPants are selected : public void implementation8()"}
+{"logLevel":"debug","message":"\tIt is checked that the user login screen appears. : public void implementation13()"}
+{"logLevel":"debug","message":"\tNavigate to Beymen : public void implementation2()"}
+{"logLevel":"debug","message":"\tType pantolon in the search button and enter : public void implementation5()"}
+{"logLevel":"debug","message":"\tProduct is selected : public void implementation10()"}
+{"logLevel":"debug","message":"\tAdd to cart text is checked : public void implementation11()"}
+{"logLevel":"debug","message":"\tClick the search button : public void implementation4() throws InterruptedException"}
+{"logLevel":"debug","message":"\tClick on the Filter button : public void implementation6()"}
+{"logLevel":"debug","message":"\tProducts are listed : public void implementation9()"}
+{"logLevel":"debug","message":"Executing 'Navigate to Browser' using 'class StepImp.StepImplementation.implementation1"}
+Starting ChromeDriver 108.0.5359.71 (1e0e3868ee06e91ad636a874420e3ca3ae3756ac-refs/branch-heads/5359@{#1016}) on port 44795
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+{"logLevel":"debug","message":"Executing 'Navigate to Beymen' using 'class StepImp.StepImplementation.implementation2"}
+{"logLevel":"debug","message":"Executing 'Click the search button' using 'class StepImp.StepImplementation.implementation4"}
+{"logLevel":"debug","message":"Executing 'Type pantolon in the search button and enter' using 'class StepImp.StepImplementation.implementation5"}
+{"logLevel":"debug","message":"Executing 'Click on the Filter button' using 'class StepImp.StepImplementation.implementation6"}
+{"logLevel":"debug","message":"Executing 'Click on the product type' using 'class StepImp.StepImplementation.implementation7"}
+{"logLevel":"debug","message":"Executing 'Pants are selected' using 'class StepImp.StepImplementation.implementation8"}
+{"logLevel":"debug","message":"Executing 'Products are listed' using 'class StepImp.StepImplementation.implementation9"}
+{"logLevel":"debug","message":"Executing 'Product is selected' using 'class StepImp.StepImplementation.implementation10"}
+{"logLevel":"debug","message":"Executing 'Add to cart text is checked' using 'class StepImp.StepImplementation.implementation11"}
+{"logLevel":"debug","message":"Executing 'Click on favorites' using 'class StepImp.StepImplementation.implementation12"}
+{"logLevel":"debug","message":"Executing 'It is checked that the user login screen appears.' using 'class StepImp.StepImplementation.implementation13"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}
